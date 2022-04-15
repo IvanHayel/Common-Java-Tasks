@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Slf4j
 class InvertLettersAndWordsTest {
     private static final String LARGE_TEXT_NAME = "large-test-text.txt";
-    private static final URL LARGE_TEXT_URL = FindingFirstNonRepeatingCharacterTest.class
+    private static final URL LARGE_TEXT_URL = InvertLettersAndWordsTest.class
             .getClassLoader()
             .getResource(LARGE_TEXT_NAME);
     private static final String LARGE_TEXT;
