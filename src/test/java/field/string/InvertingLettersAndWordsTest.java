@@ -7,13 +7,13 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import static field.string.InvertLettersAndWords.*;
+import static field.string.InvertingLettersAndWords.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Slf4j
-class InvertLettersAndWordsTest {
+class InvertingLettersAndWordsTest {
     private static final String LARGE_TEXT_NAME = "large-test-text.txt";
-    private static final URL LARGE_TEXT_URL = InvertLettersAndWordsTest.class
+    private static final URL LARGE_TEXT_URL = InvertingLettersAndWordsTest.class
             .getClassLoader()
             .getResource(LARGE_TEXT_NAME);
     private static final String LARGE_TEXT;
@@ -28,7 +28,7 @@ class InvertLettersAndWordsTest {
     }
 
     /**
-     * Method under test: {@link InvertLettersAndWords#invertFirstOption(String)}
+     * Method under test: {@link InvertingLettersAndWords#invertFirstOption(String)}
      */
     @Test
     void testInvertFirstOption() {
@@ -40,7 +40,7 @@ class InvertLettersAndWordsTest {
     }
 
     /**
-     * Method under test: {@link InvertLettersAndWords#invertSecondOption(String)}
+     * Method under test: {@link InvertingLettersAndWords#invertSecondOption(String)}
      */
     @Test
     void testInvertSecondOption() {
@@ -52,7 +52,7 @@ class InvertLettersAndWordsTest {
     }
 
     /**
-     * Method under test: {@link InvertLettersAndWords#invertThirdOption(String)}
+     * Method under test: {@link InvertingLettersAndWords#invertThirdOption(String)}
      */
     @Test
     void testInvertThirdOption() {
@@ -64,7 +64,7 @@ class InvertLettersAndWordsTest {
     }
 
     /**
-     * Method under test: {@link InvertLettersAndWords#invertApacheCommonsLang(String)}
+     * Method under test: {@link InvertingLettersAndWords#invertApacheCommonsLang(String)}
      */
     @Test
     void testInvertApacheCommonsLang() {

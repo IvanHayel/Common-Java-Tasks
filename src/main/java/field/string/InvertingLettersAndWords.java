@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class InvertLettersAndWords {
+public class InvertingLettersAndWords {
     private static final String WHITESPACE = " ";
     private static final Pattern PATTERN = Pattern.compile(" +");
 
