@@ -1,14 +1,18 @@
 # **Common Java Tasks**
 
+---
+
 ## Contents:
 
 ### - [Description]()
 
-### - [Strings, numbers and math](https://github.com/IvanHayel/common-java-tasks#strings-numbers-and-math)
+### - [Strings](https://github.com/IvanHayel/common-java-tasks#strings)
 
 ### ... `IN PROGRESS` ...
 
-### Strings, numbers and math
+---
+
+### Strings
 
 | **Task**                                                       |                                                                  **Solution**                                                                  |
 |:---------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -29,4 +33,18 @@
 | Sorting `String` array by length.                              |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/SortingStringArrayByLength.java)       |
 | Checking for a substring in a string.                          |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/CheckingContainsText.java)          |
 | Counting the number of occurrences of a substring in a string. |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/CountingOccurrencesOfSubstring.java)     |
-| ... `IN PROGRESS` ...                                          |                                                                 [**click**]()                                                                  |
+| Checking if two strings are anagrams.                          |           [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/CheckingForAnagram.java)           |
+| Concatenating the same string n times.                         |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/RepeatConcatenation.java)           |
+| Finding the highest common prefix.                             |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/FindingHighestCommonPrefix.java)       |
+| Applying an indent.                                            |             [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/ApplyingIndent.java)             |
+| `String` transformation.                                       |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/string/StringTransformation.java)          |
+
+---
+
+### Math
+
+| **Task**         |                                                    **Solution**                                                     |
+|:-----------------|:-------------------------------------------------------------------------------------------------------------------:|
+| Finding extremes | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/math/string/FindExtremes.java) |
+
+---
