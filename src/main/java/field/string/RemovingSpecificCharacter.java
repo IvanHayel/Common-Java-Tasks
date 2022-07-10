@@ -1,6 +1,7 @@
 package field.string;
 
 import java.util.regex.Pattern;
+import org.apache.commons.lang3.StringUtils;
 
 public class RemovingSpecificCharacter {
   public static String removeCharacterFirstOption(String str, char c) {
@@ -35,5 +36,9 @@ public class RemovingSpecificCharacter {
         .filter(ch -> ch != codePoint)
         .mapToObj(ch -> String.valueOf((char) ch))
         .reduce("", (a, b) -> a + b);
+  }
+
+  public static String removeCharacterApache(String str, char c) {
+    return StringUtils.remove(str, c);
   }
 }

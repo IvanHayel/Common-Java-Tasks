@@ -56,4 +56,13 @@ class RemovingSpecificCharacterTest {
     String result = RemovingSpecificCharacter.removeCharacterFifthOption(STRING, CHARACTER_STRING);
     assertEquals(EXPECTED_RESULT, result);
   }
+
+  /**
+   * Method under test: {@link RemovingSpecificCharacter#removeCharacterApache(String, char)}
+   */
+  @Test
+  void testRemoveCharacterApache() {
+    String result = RemovingSpecificCharacter.removeCharacterApache(STRING, CHARACTER);
+    assertEquals(EXPECTED_RESULT, result);
+  }
 }
