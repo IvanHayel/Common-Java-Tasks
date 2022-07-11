@@ -8,6 +8,8 @@
 
 ### - [Strings](https://github.com/IvanHayel/common-java-tasks#strings)
 
+### - [Math](https://github.com/IvanHayel/common-java-tasks#math)
+
 ### ... `IN PROGRESS` ...
 
 ---
@@ -43,8 +45,11 @@
 
 ### Math
 
-| **Task**          |                                                     **Solution**                                                      |
-|:------------------|:---------------------------------------------------------------------------------------------------------------------:|
-| Finding extremes. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/FindingExtremes.java) |
+| **Task**                   |                                                         **Solution**                                                          |
+|:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Finding extremes.          |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/FindingExtremes.java)     |
+| Sum of big numbers.        |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/SumOfBigNumbers.java)     |
+| Next floating point value. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/NextFloatingPointValue.java)  |
+| Compact number formatting. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/CompactNumberFormatting.java) |
 
 ---
