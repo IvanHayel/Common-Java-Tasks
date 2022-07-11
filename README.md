@@ -43,8 +43,8 @@
 
 ### Math
 
-| **Task**         |                                                    **Solution**                                                     |
-|:-----------------|:-------------------------------------------------------------------------------------------------------------------:|
-| Finding extremes | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/math/string/FindExtremes.java) |
+| **Task**          |                                                     **Solution**                                                      |
+|:------------------|:---------------------------------------------------------------------------------------------------------------------:|
+| Finding extremes. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/FindingExtremes.java) |
 
 ---
