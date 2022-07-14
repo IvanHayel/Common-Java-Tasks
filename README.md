@@ -68,9 +68,11 @@
 
 ### Date and time
 
-| **Task** | **Solution**  |
-|:---------|:-------------:|
-|          | [**click**]() |
+| **Task**                           |                                                         **Solution**                                                         |
+|:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------:|
+| Converting `String` to date.       | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingStringToDate.java) |
+| Getting the current date and time. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingCurrentDateTime.java) |
+|                                    |                                                                                                                              |
 
 ---
 
