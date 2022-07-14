@@ -4,13 +4,13 @@
 
 ## Contents:
 
-### - [Description]()
-
 ### - [Strings](https://github.com/IvanHayel/common-java-tasks#strings)
 
 ### - [Math](https://github.com/IvanHayel/common-java-tasks#math)
 
 ### - [Objects](https://github.com/IvanHayel/common-java-tasks#objects)
+
+### - [Date and time](https://github.com/IvanHayel/common-java-tasks#date-and-time)
 
 ### ... `IN PROGRESS` ...
 
@@ -61,8 +61,16 @@
 | **Task**                      |                                                          **Solution**                                                          |
 |:------------------------------|:------------------------------------------------------------------------------------------------------------------------------:|
 | Checking references for null. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/object/CheckingNullReferences.java) |
-|                               |                                                                                                                                |
-|                               |                                                                                                                                |
-|                               |                                                                                                                                |
+| Checking indexes.             |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/object/CheckingIndexes.java)     |
+| Cloning objects.              | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/object/cloning/CloningObjects.java) |
 
 ---
+
+### Date and time
+
+| **Task** | **Solution**  |
+|:---------|:-------------:|
+|          | [**click**]() |
+
+---
+
