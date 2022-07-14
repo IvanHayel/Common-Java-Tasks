@@ -10,6 +10,8 @@
 
 ### - [Math](https://github.com/IvanHayel/common-java-tasks#math)
 
+### - [Objects](https://github.com/IvanHayel/common-java-tasks#objects)
+
 ### ... `IN PROGRESS` ...
 
 ---
@@ -51,5 +53,16 @@
 | Sum of big numbers.        |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/SumOfBigNumbers.java)     |
 | Next floating point value. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/NextFloatingPointValue.java)  |
 | Compact number formatting. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/math/CompactNumberFormatting.java) |
+
+---
+
+### Objects
+
+| **Task**                      |                                                          **Solution**                                                          |
+|:------------------------------|:------------------------------------------------------------------------------------------------------------------------------:|
+| Checking references for null. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/object/CheckingNullReferences.java) |
+|                               |                                                                                                                                |
+|                               |                                                                                                                                |
+|                               |                                                                                                                                |
 
 ---
