@@ -68,12 +68,13 @@
 
 ### Date and time
 
-| **Task**                           |                                                         **Solution**                                                         |
-|:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------:|
-| Converting `String` to date.       | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingStringToDate.java) |
-| Getting the current date and time. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingCurrentDateTime.java) |
-| Getting date and time units.       |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingDateUnits.java)    |
-| Getting all time zones (UTC, GMT)  |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingAllTimeZones.java)   |
+| **Task**                           |                                                         **Solution**                                                          |
+|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Converting `String` to date.       | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingStringToDate.java)  |
+| Getting the current date and time. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingCurrentDateTime.java)  |
+| Getting date and time units.       |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingDateUnits.java)     |
+| Getting all time zones (UTC, GMT)  |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingAllTimeZones.java)   |
+| UNIX timestamp conversion.         | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/UnixTimestampConversion.java) |
 
 ---
 
