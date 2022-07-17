@@ -14,6 +14,8 @@
 
 ### - [LVTI](https://github.com/IvanHayel/common-java-tasks#lvti-local-variable-type-inference)
 
+### - [Arrays, Collections, and Data Structures]()
+
 ### ... `IN PROGRESS` ...
 
 ---
@@ -86,10 +88,20 @@
 
 ### LVTI (Local Variable Type Inference)
 
-| **Task** | **Solution** |
-|:---------|:------------:|
-|          |              |
-|          |              |
-|          |              |
+| **Task**                                   |                                                       **Solution**                                                       |
+|:-------------------------------------------|:------------------------------------------------------------------------------------------------------------------------:|
+| Simple use of `var`.                       | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/lvti/LvtiSimpleExample.java)  |
+| Using the `var` type with primitive types. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/lvti/LvtiWithPrimitives.java) |
 
 ---
+
+### Arrays, Collections, and Data Structures
+
+| **Task** | **Solution**  |
+|:---------|:-------------:|
+|          | [**click**]() |
+|          |               |
+|          |               |
+
+---
+
