@@ -12,6 +12,8 @@
 
 ### - [Date and time](https://github.com/IvanHayel/common-java-tasks#date-and-time)
 
+### - [LVTI](https://github.com/IvanHayel/common-java-tasks#lvti-local-variable-type-inference)
+
 ### ... `IN PROGRESS` ...
 
 ---
@@ -68,13 +70,26 @@
 
 ### Date and time
 
-| **Task**                           |                                                         **Solution**                                                          |
-|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------:|
-| Converting `String` to date.       | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingStringToDate.java)  |
-| Getting the current date and time. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingCurrentDateTime.java)  |
-| Getting date and time units.       |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingDateUnits.java)     |
-| Getting all time zones (UTC, GMT)  |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingAllTimeZones.java)   |
-| UNIX timestamp conversion.         | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/UnixTimestampConversion.java) |
+| **Task**                               |                                                            **Solution**                                                             |
+|:---------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------:|
+| Converting `String` to date.           |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingStringToDate.java)     |
+| Getting the current date and time.     |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingCurrentDateTime.java)     |
+| Getting date and time units.           |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingDateUnits.java)        |
+| Getting all time zones (UTC, GMT)      |      [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/GettingAllTimeZones.java)      |
+| UNIX timestamp conversion.             |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/UnixTimestampConversion.java)    |
+| Finding the first/last day of a month. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/FindingFirstAndLastDayOfMonth.java) |
+| Converting dates.                      |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/ConvertingDate.java)         |
+| Bypass date interval in a loop.        |         [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/DateInterval.java)          |
+| Age calculation.                       |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/date/AgeCalculation.java)         |
 
 ---
 
+### LVTI (Local Variable Type Inference)
+
+| **Task** | **Solution** |
+|:---------|:------------:|
+|          |              |
+|          |              |
+|          |              |
+
+---
