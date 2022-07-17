@@ -14,7 +14,7 @@
 
 ### - [LVTI](https://github.com/IvanHayel/common-java-tasks#lvti-local-variable-type-inference)
 
-### - [Arrays, Collections, and Data Structures]()
+### - [Arrays, Collections, and Data Structures](https://github.com/IvanHayel/common-java-tasks#arrays-collections-and-data-structures)
 
 ### ... `IN PROGRESS` ...
 
@@ -97,11 +97,11 @@
 
 ### Arrays, Collections, and Data Structures
 
-| **Task** | **Solution**  |
-|:---------|:-------------:|
-|          | [**click**]() |
-|          |               |
-|          |               |
+| **Task**                        |                                                       **Solution**                                                        |
+|:--------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
+| Array sort.                     |      [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)      |
+| Finding an element in an array. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayElement.java) |
+|                                 |      [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)      |
 
 ---
 
