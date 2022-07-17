@@ -97,11 +97,14 @@
 
 ### Arrays, Collections, and Data Structures
 
-| **Task**                        |                                                       **Solution**                                                        |
-|:--------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
-| Array sort.                     |      [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)      |
-| Finding an element in an array. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayElement.java) |
-|                                 |      [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)      |
+| **Task**                            |                                                           **Solution**                                                            |
+|:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|
+| Array sort.                         |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)          |
+| Finding an element in an array.     |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayElement.java)     |
+| Checking the equivalence of arrays. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CheckingEquivalenceOfArrays.java) |
+| Creating a stream from an array.    |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CreatingStreamFromArray.java)   |
+| Finding array extremes.             |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayExtremes.java)     |
+| Inverting an array.                 |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/InvertingArray.java)        |
 
 ---
 
