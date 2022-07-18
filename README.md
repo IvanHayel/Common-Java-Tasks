@@ -105,6 +105,11 @@
 | Creating a stream from an array.    |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CreatingStreamFromArray.java)   |
 | Finding array extremes.             |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayExtremes.java)     |
 | Inverting an array.                 |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/InvertingArray.java)        |
+| Filling and setting up an array.    |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FillingArray.java)         |
+| Resizing an array.                  |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ResizingArray.java)        |
+| Creation of immutable collections.  |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ImmutableCollections.java)     |
+| Map compute and merge.              |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/MapComputeMerge.java)       |
+| Map sorting.                        |         [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/SortingMap.java)          |
 
 ---
 
