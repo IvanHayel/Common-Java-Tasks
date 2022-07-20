@@ -112,7 +112,8 @@
 | Map sorting.                                |         [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/SortingMap.java)          |
 | Converting collection to Array.             | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ConvertingCollectionToArray.java) |
 | Thread-safe collections, stacks and queues. |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ThreadSafeCollections.java)    |
-| BFS (breadth-first search)                  |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/BreadthFirstSearch.java)      |
+| BFS (breadth-first search).                 |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/BreadthFirstSearch.java)      |
+| Prefix tree (trie).                         |               [**click**](https://github.com/IvanHayel/common-java-tasks/tree/master/src/main/java/field/data/trie)               |
 
 ---
 
