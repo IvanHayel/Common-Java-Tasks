@@ -97,19 +97,22 @@
 
 ### Arrays, Collections, and Data Structures
 
-| **Task**                            |                                                           **Solution**                                                            |
-|:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|
-| Array sort.                         |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)          |
-| Finding an element in an array.     |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayElement.java)     |
-| Checking the equivalence of arrays. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CheckingEquivalenceOfArrays.java) |
-| Creating a stream from an array.    |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CreatingStreamFromArray.java)   |
-| Finding array extremes.             |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayExtremes.java)     |
-| Inverting an array.                 |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/InvertingArray.java)        |
-| Filling and setting up an array.    |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FillingArray.java)         |
-| Resizing an array.                  |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ResizingArray.java)        |
-| Creation of immutable collections.  |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ImmutableCollections.java)     |
-| Map compute and merge.              |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/MapComputeMerge.java)       |
-| Map sorting.                        |         [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/SortingMap.java)          |
+| **Task**                                    |                                                           **Solution**                                                            |
+|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|
+| Array sort.                                 |          [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ArraySort.java)          |
+| Finding an element in an array.             |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayElement.java)     |
+| Checking the equivalence of arrays.         | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CheckingEquivalenceOfArrays.java) |
+| Creating a stream from an array.            |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/CreatingStreamFromArray.java)   |
+| Finding array extremes.                     |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FindingArrayExtremes.java)     |
+| Inverting an array.                         |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/InvertingArray.java)        |
+| Filling and setting up an array.            |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/FillingArray.java)         |
+| Resizing an array.                          |        [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ResizingArray.java)        |
+| Creation of immutable collections.          |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ImmutableCollections.java)     |
+| Map compute and merge.                      |       [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/MapComputeMerge.java)       |
+| Map sorting.                                |         [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/SortingMap.java)          |
+| Converting collection to Array.             | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ConvertingCollectionToArray.java) |
+| Thread-safe collections, stacks and queues. |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/ThreadSafeCollections.java)    |
+| BFS (breadth-first search)                  |     [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/data/BreadthFirstSearch.java)      |
 
 ---
 
