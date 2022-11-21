@@ -117,3 +117,9 @@
 
 ---
 
+### IO
+
+| **Task**               |                                                      **Solution**                                                       |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------:|
+| Creating file paths.   |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/CreatingFilePaths.java)  |
+| Converting file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConvertingFilePaths.java) |
