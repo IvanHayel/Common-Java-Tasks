@@ -12,7 +12,7 @@ class ArraySortTest {
   private static final int TEST_START = 0;
   private static final int TEST_END = 50_000;
   private static final int[] INTEGER_EXPECTED_SORTED_ARRAY =
-      IntStream.range(TEST_START, TEST_END).toArray();
+    IntStream.range(TEST_START, TEST_END).toArray();
 
   private static int[] INTEGER_TEST_ARRAY;
 

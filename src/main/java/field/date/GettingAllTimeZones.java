@@ -20,11 +20,11 @@ public class GettingAllTimeZones {
     Set<String> zoneIds = getAllTimeZoneIds();
     LocalDateTime now = LocalDateTime.now();
     zoneIds.forEach(zoneId -> timeZones.add("(" +
-            now.atZone(ZoneId.of(zoneId))
-                .getOffset()
-                .getId()
-                .replace("Z", "+00:00") +
-            ") " + zoneId));
+      now.atZone(ZoneId.of(zoneId))
+        .getOffset()
+        .getId()
+        .replace("Z", "+00:00") +
+      ") " + zoneId));
     return timeZones;
   }
 }

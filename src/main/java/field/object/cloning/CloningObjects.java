@@ -38,7 +38,7 @@ public class CloningObjects {
       ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
       objectOutputStream.writeObject(point);
       ByteArrayInputStream byteArrayInputStream =
-          new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+        new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
       ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
       return (Point) objectInputStream.readObject();
     } catch (IOException | ClassNotFoundException exception) {

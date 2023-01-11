@@ -18,9 +18,9 @@ class SumOfBigNumbersTest {
   @Test
   void testSumBigInteger() {
     assertEquals(EXPECTED_INTEGER_SUM,
-        SumOfBigNumbers.sumBigInteger(Integer.MAX_VALUE, Integer.MAX_VALUE));
+      SumOfBigNumbers.sumBigInteger(Integer.MAX_VALUE, Integer.MAX_VALUE));
     assertEquals(EXPECTED_LONG_SUM,
-        SumOfBigNumbers.sumBigInteger(Long.MAX_VALUE, Long.MAX_VALUE));
+      SumOfBigNumbers.sumBigInteger(Long.MAX_VALUE, Long.MAX_VALUE));
   }
 
   /**
@@ -29,7 +29,7 @@ class SumOfBigNumbersTest {
   @Test
   void testSumBigDecimal() {
     assertEquals(EXPECTED_DOUBLE_SUM,
-        SumOfBigNumbers.sumBigDecimal(Double.MAX_VALUE, Double.MAX_VALUE));
+      SumOfBigNumbers.sumBigDecimal(Double.MAX_VALUE, Double.MAX_VALUE));
   }
 
   /**
@@ -38,9 +38,9 @@ class SumOfBigNumbersTest {
   @Test
   void testSumMath() {
     assertThrows(ArithmeticException.class,
-        () -> SumOfBigNumbers.sumMath(Integer.MAX_VALUE, Integer.MAX_VALUE));
+      () -> SumOfBigNumbers.sumMath(Integer.MAX_VALUE, Integer.MAX_VALUE));
     assertThrows(ArithmeticException.class,
-        () -> SumOfBigNumbers.sumMath(Long.MAX_VALUE, Long.MAX_VALUE));
+      () -> SumOfBigNumbers.sumMath(Long.MAX_VALUE, Long.MAX_VALUE));
   }
 }
 

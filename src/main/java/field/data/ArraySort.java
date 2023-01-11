@@ -81,7 +81,7 @@ public class ArraySort {
 
   // Insertion sort (with Comparator)
   public static <T> void sortArrayInsertionSecondOption(T[] array,
-      Comparator<? super T> comparator) {
+    Comparator<? super T> comparator) {
     for (int i = 1; i < array.length; i++) {
       int j = i;
       while (j > 0 && comparator.compare(array[j - 1], array[j]) > 0) {

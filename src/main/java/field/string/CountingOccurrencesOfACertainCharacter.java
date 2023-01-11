@@ -17,8 +17,8 @@ public class CountingOccurrencesOfACertainCharacter {
 
   public static long countCommonThirdOption(String text, char character) {
     return text.chars()
-        .filter(c -> c == character)
-        .count();
+      .filter(c -> c == character)
+      .count();
   }
 
   public static int countConsideringUnicodeSurrogatePairs(String text, String character) {

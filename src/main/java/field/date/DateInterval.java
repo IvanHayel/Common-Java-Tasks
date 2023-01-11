@@ -8,7 +8,7 @@ import java.util.List;
 public class DateInterval {
   public static List<LocalDate> getDateIntervalFirstOption(LocalDate start, LocalDate end) {
     List<LocalDate> dates = new ArrayList<>();
-    for(LocalDate date = start; date.isBefore(end); date = date.plusDays(1)) {
+    for (LocalDate date = start; date.isBefore(end); date = date.plusDays(1)) {
       dates.add(date);
     }
     return dates;

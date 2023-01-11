@@ -18,10 +18,10 @@ public class Trie {
 
   public boolean contains(String word) {
     Node node = root;
-    for(int i = 0; i < word.length(); i++) {
+    for (int i = 0; i < word.length(); i++) {
       char c = word.charAt(i);
       node = node.getChildren().get(c);
-      if(node == null) {
+      if (node == null) {
         return false;
       }
     }
@@ -33,8 +33,8 @@ public class Trie {
   }
 
   private boolean delete(Node node, String word, int position) {
-    if(word.length() == position) {
-      if(!node.isWord()) {
+    if (word.length() == position) {
+      if (!node.isWord()) {
         return false;
       }
       node.setWord(false);
@@ -42,11 +42,11 @@ public class Trie {
     }
     char c = word.charAt(position);
     Node child = node.getChildren().get(c);
-    if(child == null) {
+    if (child == null) {
       return false;
     }
     boolean shouldDelete = delete(child, word, position + 1);
-    if(shouldDelete && !child.isWord()) {
+    if (shouldDelete && !child.isWord()) {
       node.getChildren().remove(c);
       return node.getChildren().isEmpty();
     }

@@ -7,9 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TrieTest {
-  private static Trie TEST_TRIE;
   private static final String TEST_INSERT = "test";
   private static final String TEST_NOT_INSERT = "not";
+  private static Trie TEST_TRIE;
 
   @BeforeEach
   void setUp() {
@@ -36,6 +36,7 @@ class TrieTest {
     assertTrue(TEST_TRIE.contains(TEST_INSERT));
     assertFalse(TEST_TRIE.contains(TEST_NOT_INSERT));
   }
+
   /**
    * Method under test: {@link Trie#delete(String)}
    */

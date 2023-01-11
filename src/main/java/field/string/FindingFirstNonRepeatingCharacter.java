@@ -88,14 +88,14 @@ public class FindingFirstNonRepeatingCharacter {
 
   public static String getFirstNonRepeatedCharacterThirdOptionGeneral(String text) {
     Map<Integer, Long> chars = text.codePoints()
-        .mapToObj(codePoint -> codePoint)
-        .collect(
-            Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
+      .mapToObj(codePoint -> codePoint)
+      .collect(
+        Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
     int cp = chars.entrySet().stream()
-        .filter(entry -> entry.getValue() == 1L)
-        .findFirst()
-        .map(Map.Entry::getKey)
-        .orElse(Integer.valueOf(Character.MIN_VALUE));
+      .filter(entry -> entry.getValue() == 1L)
+      .findFirst()
+      .map(Map.Entry::getKey)
+      .orElse(Integer.valueOf(Character.MIN_VALUE));
     return String.valueOf(Character.toChars(cp));
   }
 }

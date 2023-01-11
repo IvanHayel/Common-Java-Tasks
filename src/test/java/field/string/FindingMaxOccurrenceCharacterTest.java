@@ -11,32 +11,35 @@ class FindingMaxOccurrenceCharacterTest {
   private static final Pair<Character, Long> EXPECTED_RESULT_LONG = Pair.of('l', 3L);
 
   /**
-   * Method under test: {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterFirstOption(String)}
+   * Method under test:
+   * {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterFirstOption(String)}
    */
   @Test
   void testMaxOccurrenceCharacterFirstOption() {
     Pair<Character, Integer> result =
-        FindingMaxOccurrenceCharacter.maxOccurrenceCharacterFirstOption(TEST_STRING);
+      FindingMaxOccurrenceCharacter.maxOccurrenceCharacterFirstOption(TEST_STRING);
     assertEquals(EXPECTED_RESULT_INTEGER, result);
   }
 
   /**
-   * Method under test: {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterSecondOption(String)}
+   * Method under test:
+   * {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterSecondOption(String)}
    */
   @Test
   void testMaxOccurrenceCharacterSecondOption() {
     Pair<Character, Integer> result =
-        FindingMaxOccurrenceCharacter.maxOccurrenceCharacterSecondOption(TEST_STRING);
+      FindingMaxOccurrenceCharacter.maxOccurrenceCharacterSecondOption(TEST_STRING);
     assertEquals(EXPECTED_RESULT_INTEGER, result);
   }
 
   /**
-   * Method under test: {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterThirdOption(String)}
+   * Method under test:
+   * {@link FindingMaxOccurrenceCharacter#maxOccurrenceCharacterThirdOption(String)}
    */
   @Test
   void testMaxOccurrenceCharacterThirdOption() {
     Pair<Character, Long> result =
-        FindingMaxOccurrenceCharacter.maxOccurrenceCharacterThirdOption(TEST_STRING);
+      FindingMaxOccurrenceCharacter.maxOccurrenceCharacterThirdOption(TEST_STRING);
     assertEquals(EXPECTED_RESULT_LONG, result);
   }
 }

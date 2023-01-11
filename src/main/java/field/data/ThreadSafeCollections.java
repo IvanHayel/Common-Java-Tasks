@@ -62,7 +62,7 @@ public class ThreadSafeCollections {
     //Any
     Collection<Object> safeCollectionFirst = Collections.synchronizedCollection(new ArrayList<>());
     Collection<Object> safeCollectionSecond = Collections.synchronizedSet(new HashSet<>());
-    Map<Object,Object> safeCollectionThird = Collections.synchronizedMap(new HashMap<>());
+    Map<Object, Object> safeCollectionThird = Collections.synchronizedMap(new HashMap<>());
     Collection<Object> safeCollectionFourth = Collections.synchronizedList(new ArrayList<>());
   }
 }

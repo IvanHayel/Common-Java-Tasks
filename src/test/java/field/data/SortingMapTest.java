@@ -12,22 +12,22 @@ import org.junit.jupiter.api.Test;
 class SortingMapTest {
   private static final Map<Integer, Integer> TEST_MAP = new HashMap<>();
   private static final Map<Integer, Integer> EXPECTED_MAP = Map.of(
-      111, 111,
-      222, 222,
-      333, 333,
-      444, 444,
-      555, 555,
-      666, 666,
-      777, 777
+    111, 111,
+    222, 222,
+    333, 333,
+    444, 444,
+    555, 555,
+    666, 666,
+    777, 777
   );
   private static final List<Integer> EXPECTED_LIST = List.of(
-      111,
-      222,
-      333,
-      444,
-      555,
-      666,
-      777
+    111,
+    222,
+    333,
+    444,
+    555,
+    666,
+    777
   );
 
   static {
@@ -54,7 +54,8 @@ class SortingMapTest {
    */
   @Test
   void testSortByKeyStream() {
-    Map<Integer, Integer> sortedMap = SortingMap.sortByKeyStream(TEST_MAP, Comparator.naturalOrder());
+    Map<Integer, Integer> sortedMap = SortingMap.sortByKeyStream(TEST_MAP,
+      Comparator.naturalOrder());
     assertEquals(EXPECTED_MAP, sortedMap);
   }
 
@@ -63,7 +64,8 @@ class SortingMapTest {
    */
   @Test
   void testSortByValueStream() {
-    Map<Integer, Integer> sortedMap = SortingMap.sortByValueStream(TEST_MAP, Comparator.naturalOrder());
+    Map<Integer, Integer> sortedMap = SortingMap.sortByValueStream(TEST_MAP,
+      Comparator.naturalOrder());
     assertEquals(EXPECTED_MAP, sortedMap);
   }
 

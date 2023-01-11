@@ -19,7 +19,7 @@ public class InvertingArray {
 
   public static void reverseSecondOption(int[] array) {
     int[] result = IntStream.rangeClosed(1, array.length).map(i -> array[array.length - i])
-        .toArray();
+      .toArray();
     IntStream.range(0, array.length).forEach(i -> array[i] = result[i]);
   }
 

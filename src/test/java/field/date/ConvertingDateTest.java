@@ -23,7 +23,7 @@ class ConvertingDateTest {
   void testConvertDateToInstant() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     Instant actualConvertDateToInstantResult = ConvertingDate
-        .convertDateToInstant(Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
+      .convertDateToInstant(Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
     assertSame(actualConvertDateToInstantResult.EPOCH, actualConvertDateToInstantResult);
   }
 
@@ -34,7 +34,7 @@ class ConvertingDateTest {
   void testConvertInstantToDate() {
     Instant atStartOfDayResult = Instant.ofEpochSecond(0L);
     Date actualConvertInstantToDateResult = ConvertingDate
-        .convertInstantToDate(atStartOfDayResult);
+      .convertInstantToDate(atStartOfDayResult);
     assertEquals(atStartOfDayResult.toEpochMilli(), actualConvertInstantToDateResult.getTime());
   }
 
@@ -45,9 +45,9 @@ class ConvertingDateTest {
   void testConvertDateToLocalDate() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     assertEquals("1970-01-01",
-        ConvertingDate.convertDateToLocalDate(
-                Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()))
-            .toString());
+      ConvertingDate.convertDateToLocalDate(
+          Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()))
+        .toString());
   }
 
   /**
@@ -57,7 +57,7 @@ class ConvertingDateTest {
   void testConvertLocalDateToDate() {
     LocalDate atStartOfDayResult = LocalDate.of(1970, 1, 1);
     assertEquals(-10800000L,
-        ConvertingDate.convertLocalDateToDate(atStartOfDayResult).getTime());
+      ConvertingDate.convertLocalDateToDate(atStartOfDayResult).getTime());
   }
 
   /**
@@ -67,8 +67,8 @@ class ConvertingDateTest {
   void testConvertDateToLocalDateTime() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     LocalDateTime actualConvertDateToLocalDateTimeResult = ConvertingDate
-        .convertDateToLocalDateTime(
-            Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
+      .convertDateToLocalDateTime(
+        Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
     assertEquals("1970-01-01", actualConvertDateToLocalDateTimeResult.toLocalDate().toString());
     assertEquals("03:00", actualConvertDateToLocalDateTimeResult.toLocalTime().toString());
   }
@@ -80,7 +80,7 @@ class ConvertingDateTest {
   void testConvertLocalDateTimeToDate() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     Date actualConvertLocalDateTimeToDateResult = ConvertingDate
-        .convertLocalDateTimeToDate(atStartOfDayResult);
+      .convertLocalDateTimeToDate(atStartOfDayResult);
     assertEquals(-10800000L, actualConvertLocalDateTimeToDateResult.getTime());
   }
 
@@ -91,8 +91,8 @@ class ConvertingDateTest {
   void testConvertDateToZonedDateTime() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     ZonedDateTime actualConvertDateToZonedDateTimeResult = ConvertingDate
-        .convertDateToZonedDateTime(
-            Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
+      .convertDateToZonedDateTime(
+        Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
     assertEquals("1970-01-01", actualConvertDateToZonedDateTimeResult.toLocalDate().toString());
     assertEquals("03:00", actualConvertDateToZonedDateTimeResult.toLocalTime().toString());
   }
@@ -103,9 +103,9 @@ class ConvertingDateTest {
   @Test
   void testConvertZonedDateTimeToDate() {
     ZonedDateTime atStartOfDayResult = ZonedDateTime.of(LocalDate.of(1970, 1, 1),
-        LocalTime.of(3, 0), ZoneId.of("UTC"));
+      LocalTime.of(3, 0), ZoneId.of("UTC"));
     Date actualConvertZonedDateTimeToDateResult = ConvertingDate
-        .convertZonedDateTimeToDate(atStartOfDayResult);
+      .convertZonedDateTimeToDate(atStartOfDayResult);
     assertEquals(10800000L, actualConvertZonedDateTimeToDateResult.getTime());
   }
 
@@ -116,8 +116,8 @@ class ConvertingDateTest {
   void testConvertDateToOffsetDateTime() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     OffsetDateTime actualConvertDateToOffsetDateTimeResult = ConvertingDate
-        .convertDateToOffsetDateTime(
-            Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
+      .convertDateToOffsetDateTime(
+        Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()));
     assertEquals("1970-01-01", actualConvertDateToOffsetDateTimeResult.toLocalDate().toString());
     assertEquals("03:00", actualConvertDateToOffsetDateTimeResult.toLocalTime().toString());
   }
@@ -128,9 +128,9 @@ class ConvertingDateTest {
   @Test
   void testConvertOffsetDateTimeToDate() {
     OffsetDateTime atStartOfDayResult = OffsetDateTime.of(LocalDate.of(1970, 1, 1),
-        LocalTime.of(3, 0), ZoneOffset.UTC);
+      LocalTime.of(3, 0), ZoneOffset.UTC);
     Date actualConvertOffsetDateTimeToDateResult = ConvertingDate
-        .convertOffsetDateTimeToDate(atStartOfDayResult);
+      .convertOffsetDateTimeToDate(atStartOfDayResult);
     assertEquals(10800000L, actualConvertOffsetDateTimeToDateResult.getTime());
   }
 
@@ -141,9 +141,9 @@ class ConvertingDateTest {
   void testConvertDateToLocalTime() {
     LocalDateTime atStartOfDayResult = LocalDate.of(1970, 1, 1).atStartOfDay();
     assertEquals("03:00",
-        ConvertingDate.convertDateToLocalTime(
-                Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()))
-            .toString());
+      ConvertingDate.convertDateToLocalTime(
+          Date.from(atStartOfDayResult.atZone(ZoneId.of("UTC")).toInstant()))
+        .toString());
   }
 
   /**
@@ -153,7 +153,7 @@ class ConvertingDateTest {
   void testConvertLocalTimeToDate() {
     LocalTime atStartOfDayResult = LocalTime.of(3, 0);
     assertEquals(0L,
-        ConvertingDate.convertLocalTimeToDate(atStartOfDayResult).getTime());
+      ConvertingDate.convertLocalTimeToDate(atStartOfDayResult).getTime());
   }
 
   /**
@@ -162,9 +162,9 @@ class ConvertingDateTest {
   @Test
   void testConvertDateToOffsetTime() {
     Date atStartOfDayResult = Date.from(LocalDate.of(1970, 1, 1).atStartOfDay()
-        .atZone(ZoneId.of("UTC")).toInstant());
+      .atZone(ZoneId.of("UTC")).toInstant());
     assertEquals("03:00+03:00",
-        ConvertingDate.convertDateToOffsetTime(atStartOfDayResult).toString());
+      ConvertingDate.convertDateToOffsetTime(atStartOfDayResult).toString());
   }
 
   /**
@@ -174,6 +174,6 @@ class ConvertingDateTest {
   void testConvertOffsetTimeToDate() {
     OffsetTime atStartOfDayResult = OffsetTime.of(LocalTime.of(3, 0), ZoneOffset.UTC);
     assertEquals(10800000L,
-        ConvertingDate.convertOffsetTimeToDate(atStartOfDayResult).getTime());
+      ConvertingDate.convertOffsetTimeToDate(atStartOfDayResult).getTime());
   }
 }

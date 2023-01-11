@@ -27,13 +27,13 @@ class ConvertingStringToDateTest {
   }
 
   /**
-   * Method under test: {@link ConvertingStringToDate#convertStringToDateWithFormat(String,
-   * String)}
+   * Method under test:
+   * {@link ConvertingStringToDate#convertStringToDateWithFormat(String, String)}
    */
   @Test
   void testConvertStringToDateWithFormat() {
     LocalDateTime actual =
-        ConvertingStringToDate.convertStringToDateWithFormat(CUSTOM_TEST_DATE, CUSTOM_TEST_PATTERN);
+      ConvertingStringToDate.convertStringToDateWithFormat(CUSTOM_TEST_DATE, CUSTOM_TEST_PATTERN);
     assertEquals(EXCEPTED_INSTANT, actual.toInstant(ZoneOffset.UTC));
   }
 
@@ -52,7 +52,7 @@ class ConvertingStringToDateTest {
   @Test
   void testConvertStringToOffsetDateTime() {
     OffsetDateTime actual = ConvertingStringToDate.convertStringToOffsetDateTime(
-        ISO_OFFSET_TEST_DATE);
+      ISO_OFFSET_TEST_DATE);
     assertEquals(EXCEPTED_INSTANT, actual.toInstant());
   }
 }

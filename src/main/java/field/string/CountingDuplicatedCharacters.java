@@ -26,8 +26,8 @@ public class CountingDuplicatedCharacters {
 
   public static Map<Character, Long> countDuplicatedCharactersThirdOptionUTF16(String text) {
     return text.chars()
-        .mapToObj(c -> (char) c)
-        .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+      .mapToObj(c -> (char) c)
+      .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
   }
 
   public static Map<String, Integer> countDuplicatedCharactersFirstOptionUTF32(String text) {
@@ -57,13 +57,13 @@ public class CountingDuplicatedCharacters {
 
   public static Map<String, Long> countDuplicatedCharactersThirdOptionUTF32(String text) {
     return text.codePoints()
-        .mapToObj(c -> String.valueOf(Character.toChars(c)))
-        .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+      .mapToObj(c -> String.valueOf(Character.toChars(c)))
+      .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
   }
 
   public static Multiset<String> countDuplicatedCharactersGuava(String text) {
     return HashMultiset.create(text.codePoints()
-        .mapToObj(c -> String.valueOf(Character.toChars(c)))
-        .collect(Collectors.toList()));
+      .mapToObj(c -> String.valueOf(Character.toChars(c)))
+      .collect(Collectors.toList()));
   }
 }

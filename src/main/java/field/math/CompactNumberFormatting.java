@@ -7,9 +7,9 @@ import java.util.Locale;
 
 public class CompactNumberFormatting {
   private static final NumberFormat SHORT_COMPACT_FORMAT =
-      CompactNumberFormat.getCompactNumberInstance();
+    CompactNumberFormat.getCompactNumberInstance();
   private static final NumberFormat LONG_COMPACT_FORMAT =
-      CompactNumberFormat.getCompactNumberInstance(Locale.ENGLISH, Style.LONG);
+    CompactNumberFormat.getCompactNumberInstance(Locale.ENGLISH, Style.LONG);
 
   public static String formatCompactShort(int value) {
     return SHORT_COMPACT_FORMAT.format(value);

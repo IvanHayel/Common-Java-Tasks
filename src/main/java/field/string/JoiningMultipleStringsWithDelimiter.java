@@ -31,7 +31,7 @@ public class JoiningMultipleStringsWithDelimiter {
 
   public static String joinByDelimiterFourthOption(char delimiter, String... args) {
     return Arrays.stream(args)
-        .collect(Collectors.joining(String.valueOf(delimiter)));
+      .collect(Collectors.joining(String.valueOf(delimiter)));
   }
 
   public static String joinByDelimiterApacheCommons(char delimiter, String... args) {

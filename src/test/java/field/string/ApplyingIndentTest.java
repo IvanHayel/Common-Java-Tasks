@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 
 class ApplyingIndentTest {
   private static final String DAYS =
-      "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday";
+    "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday";
   private static final String EXPECTED_DAYS =
-      "  Monday\n  Tuesday\n  Wednesday\n  Thursday\n  Friday\n  Saturday\n  Sunday\n";
+    "  Monday\n  Tuesday\n  Wednesday\n  Thursday\n  Friday\n  Saturday\n  Sunday\n";
 
   /**
    * Method under test: {@link ApplyingIndent#indent(String, int)}

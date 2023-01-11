@@ -48,8 +48,8 @@ class RemovingSpecificCharacterTest {
   }
 
   /**
-   * Method under test: {@link RemovingSpecificCharacter#removeCharacterFifthOption(String,
-   * String)}
+   * Method under test:
+   * {@link RemovingSpecificCharacter#removeCharacterFifthOption(String, String)}
    */
   @Test
   void testRemoveCharacterFifthOption() {

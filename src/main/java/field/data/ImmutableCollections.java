@@ -8,13 +8,13 @@ import org.apache.commons.collections.list.UnmodifiableList;
 
 public class ImmutableCollections {
   private static final List<Integer> IMMUTABLE_LIST_FIRST =
-      List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
   private static final List<Integer> IMMUTABLE_LIST_SECOND =
-      Collections.unmodifiableList(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+    Collections.unmodifiableList(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
   private static final List<Integer> IMMUTABLE_LIST_APACHE =
-      UnmodifiableList.decorate(List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+    UnmodifiableList.decorate(List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
   private static final List<Integer> IMMUTABLE_LIST_GUAVA =
-      ImmutableList.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    ImmutableList.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
   private static final List<Integer> SINGLETON_LIST = Collections.singletonList(1);
 }
 

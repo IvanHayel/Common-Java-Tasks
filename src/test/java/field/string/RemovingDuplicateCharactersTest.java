@@ -14,8 +14,10 @@ class RemovingDuplicateCharactersTest {
    */
   @Test
   void testRemoveDuplicatesFirstOption() {
-    assertEquals(EXPECTED_STRING, RemovingDuplicateCharacters.removeDuplicatesFirstOption(TEST_STRING));
-    assertEquals(EMPTY_STRING, RemovingDuplicateCharacters.removeDuplicatesFirstOption(EMPTY_STRING));
+    assertEquals(EXPECTED_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesFirstOption(TEST_STRING));
+    assertEquals(EMPTY_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesFirstOption(EMPTY_STRING));
   }
 
   /**
@@ -23,8 +25,10 @@ class RemovingDuplicateCharactersTest {
    */
   @Test
   void testRemoveDuplicatesSecondOption() {
-    assertEquals(EXPECTED_STRING, RemovingDuplicateCharacters.removeDuplicatesSecondOption(TEST_STRING));
-    assertEquals(EMPTY_STRING, RemovingDuplicateCharacters.removeDuplicatesSecondOption(EMPTY_STRING));
+    assertEquals(EXPECTED_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesSecondOption(TEST_STRING));
+    assertEquals(EMPTY_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesSecondOption(EMPTY_STRING));
   }
 
   /**
@@ -32,8 +36,10 @@ class RemovingDuplicateCharactersTest {
    */
   @Test
   void testRemoveDuplicatesThirdOption() {
-    assertEquals(EXPECTED_STRING, RemovingDuplicateCharacters.removeDuplicatesThirdOption(TEST_STRING));
-    assertEquals(EMPTY_STRING, RemovingDuplicateCharacters.removeDuplicatesThirdOption(EMPTY_STRING));
+    assertEquals(EXPECTED_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesThirdOption(TEST_STRING));
+    assertEquals(EMPTY_STRING,
+      RemovingDuplicateCharacters.removeDuplicatesThirdOption(EMPTY_STRING));
   }
 }
 

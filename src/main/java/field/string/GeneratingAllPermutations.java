@@ -32,8 +32,8 @@ public class GeneratingAllPermutations {
     } else {
       for (int i = 0; i < size; i++) {
         permuteAndPrint(
-            prefix + str.charAt(i),
-            str.substring(i + 1, size) + str.substring(0, i)
+          prefix + str.charAt(i),
+          str.substring(i + 1, size) + str.substring(0, i)
         );
       }
     }
@@ -51,8 +51,8 @@ public class GeneratingAllPermutations {
     } else {
       for (int i = 0; i < size; i++) {
         permutations.addAll(permuteAndStore(
-            prefix + str.charAt(i),
-            str.substring(i + 1, size) + str.substring(0, i)
+          prefix + str.charAt(i),
+          str.substring(i + 1, size) + str.substring(0, i)
         ));
       }
     }
@@ -65,11 +65,11 @@ public class GeneratingAllPermutations {
       log.info("permuteAndPrintStream() >> {}", prefix);
     } else {
       IntStream.range(0, size)
-          .parallel()
-          .forEach(i -> permuteAndPrintStream(
-              prefix + str.charAt(i),
-              str.substring(i + 1, size) + str.substring(0, i)
-          ));
+        .parallel()
+        .forEach(i -> permuteAndPrintStream(
+          prefix + str.charAt(i),
+          str.substring(i + 1, size) + str.substring(0, i)
+        ));
     }
   }
 
@@ -78,10 +78,10 @@ public class GeneratingAllPermutations {
       return Stream.of("");
     }
     return IntStream.range(0, str.length())
-        .parallel()
-        .boxed()
-        .flatMap(i -> permuteAndReturnStream(str.substring(0, i) + str.substring(i + 1))
-            .map(c -> str.charAt(i) + c)
-        );
+      .parallel()
+      .boxed()
+      .flatMap(i -> permuteAndReturnStream(str.substring(0, i) + str.substring(i + 1))
+        .map(c -> str.charAt(i) + c)
+      );
   }
 }

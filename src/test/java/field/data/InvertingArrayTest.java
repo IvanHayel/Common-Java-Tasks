@@ -6,8 +6,8 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Test;
 
 class InvertingArrayTest {
-  private static final int[] TEST_ARRAY = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-  private static final int[] EXPECTED_ARRAY = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+  private static final int[] TEST_ARRAY = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  private static final int[] EXPECTED_ARRAY = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
   /**
    * Method under test: {@link InvertingArray#reverseFirstOption(int[])}

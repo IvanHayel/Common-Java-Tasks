@@ -16,8 +16,8 @@ class StringTransformationTest {
   @Test
   void testTransformFirstOption() {
     assertEquals(
-        EXPECTED_STRING,
-        StringTransformation.transformFirstOption(TEST_STRING, TO_UPPER_CASE)
+      EXPECTED_STRING,
+      StringTransformation.transformFirstOption(TEST_STRING, TO_UPPER_CASE)
     );
   }
 
@@ -27,8 +27,8 @@ class StringTransformationTest {
   @Test
   void testTransformSecondOption() {
     assertEquals(
-        EXPECTED_STRING,
-        StringTransformation.transformSecondOption(TEST_STRING, TO_UPPER_CASE)
+      EXPECTED_STRING,
+      StringTransformation.transformSecondOption(TEST_STRING, TO_UPPER_CASE)
     );
   }
 }

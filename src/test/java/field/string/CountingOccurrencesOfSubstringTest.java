@@ -10,8 +10,8 @@ class CountingOccurrencesOfSubstringTest {
   private static final int EXPECTED_RESULT = 11;
 
   /**
-   * Method under test: {@link CountingOccurrencesOfSubstring#countOccurrencesFirstOption(String,
-   * String)}
+   * Method under test:
+   * {@link CountingOccurrencesOfSubstring#countOccurrencesFirstOption(String, String)}
    */
   @Test
   void testCountOccurrencesFirstOption() {
@@ -20,19 +20,19 @@ class CountingOccurrencesOfSubstringTest {
   }
 
   /**
-   * Method under test: {@link CountingOccurrencesOfSubstring#countOccurrencesSecondOption(String,
-   * String)}
+   * Method under test:
+   * {@link CountingOccurrencesOfSubstring#countOccurrencesSecondOption(String, String)}
    */
   @Test
   void testCountOccurrencesSecondOption() {
     int result = CountingOccurrencesOfSubstring.countOccurrencesSecondOption(TEST_STRING,
-        SUBSTRING);
+      SUBSTRING);
     assertEquals(EXPECTED_RESULT, result);
   }
 
   /**
-   * Method under test: {@link CountingOccurrencesOfSubstring#countOccurrencesThirdOption(String,
-   * String)}
+   * Method under test:
+   * {@link CountingOccurrencesOfSubstring#countOccurrencesThirdOption(String, String)}
    */
   @Test
   void testCountOccurrencesThirdOption() {

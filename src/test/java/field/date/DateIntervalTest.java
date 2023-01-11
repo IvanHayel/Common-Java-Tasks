@@ -16,13 +16,13 @@ class DateIntervalTest {
   @Test
   void testGetDateIntervalFirstOption() {
     assertTrue(
-        DateInterval.getDateIntervalFirstOption(LocalDate.ofEpochDay(1L), LocalDate.ofEpochDay(1L))
-            .isEmpty());
+      DateInterval.getDateIntervalFirstOption(LocalDate.ofEpochDay(1L), LocalDate.ofEpochDay(1L))
+        .isEmpty());
     assertEquals(1,
-        DateInterval.getDateIntervalFirstOption(LocalDate.ofEpochDay(0L), LocalDate.ofEpochDay(1L))
-            .size());
+      DateInterval.getDateIntervalFirstOption(LocalDate.ofEpochDay(0L), LocalDate.ofEpochDay(1L))
+        .size());
     List<LocalDate> interval = DateInterval.getDateIntervalFirstOption(
-        LocalDate.now().minusDays(10), LocalDate.now());
+      LocalDate.now().minusDays(10), LocalDate.now());
     assertEquals(10, interval.size());
     interval.forEach(date -> log.info("Date (first option): {}", date));
   }
@@ -33,13 +33,13 @@ class DateIntervalTest {
   @Test
   void testGetDateIntervalSecondOption() {
     assertTrue(
-        DateInterval.getDateIntervalSecondOption(LocalDate.ofEpochDay(1L), LocalDate.ofEpochDay(1L))
-            .isEmpty());
+      DateInterval.getDateIntervalSecondOption(LocalDate.ofEpochDay(1L), LocalDate.ofEpochDay(1L))
+        .isEmpty());
     assertEquals(1,
-        DateInterval.getDateIntervalSecondOption(LocalDate.ofEpochDay(0L), LocalDate.ofEpochDay(1L))
-            .size());
+      DateInterval.getDateIntervalSecondOption(LocalDate.ofEpochDay(0L), LocalDate.ofEpochDay(1L))
+        .size());
     List<LocalDate> interval = DateInterval.getDateIntervalSecondOption(
-        LocalDate.now().minusDays(10), LocalDate.now());
+      LocalDate.now().minusDays(10), LocalDate.now());
     assertEquals(10, interval.size());
     interval.forEach(date -> log.info("Date (second option): {}", date));
   }

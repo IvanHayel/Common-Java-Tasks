@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 
 class SortingStringArrayByLengthTest {
   private static final String[] EXPECTED_ASCENDING_SORTED_ARRAY =
-      {"ab", "abc", "abcde", "abcdef", "abcdefg"};
+    {"ab", "abc", "abcde", "abcdef", "abcdefg"};
   private static final String[] EXPECTED_DESCENDING_SORTED_ARRAY =
-      {"abcdefg", "abcdef", "abcde", "abc", "ab"};
+    {"abcdefg", "abcdef", "abcde", "abc", "ab"};
 
   private static String[] TEST_ARRAY;
 
@@ -19,8 +19,8 @@ class SortingStringArrayByLengthTest {
   }
 
   /**
-   * Method under test: {@link SortingStringArrayByLength#sortArrayByLengthFirstOption(String[],
-   * SortDirection)}
+   * Method under test:
+   * {@link SortingStringArrayByLength#sortArrayByLengthFirstOption(String[], SortDirection)}
    */
   @Test
   void testSortArrayByLengthFirstOption() {
@@ -31,8 +31,8 @@ class SortingStringArrayByLengthTest {
   }
 
   /**
-   * Method under test: {@link SortingStringArrayByLength#sortArrayByLengthSecondOption(String[],
-   * SortDirection)}
+   * Method under test:
+   * {@link SortingStringArrayByLength#sortArrayByLengthSecondOption(String[], SortDirection)}
    */
   @Test
   void testSortArrayByLengthSecondOption() {
@@ -43,16 +43,16 @@ class SortingStringArrayByLengthTest {
   }
 
   /**
-   * Method under test: {@link SortingStringArrayByLength#sortArrayByLengthThirdOption(String[],
-   * SortDirection)}
+   * Method under test:
+   * {@link SortingStringArrayByLength#sortArrayByLengthThirdOption(String[], SortDirection)}
    */
   @Test
   void testSortArrayByLengthThirdOption() {
     String[] asc = SortingStringArrayByLength
-        .sortArrayByLengthThirdOption(TEST_ARRAY, SortDirection.ASCENDING);
+      .sortArrayByLengthThirdOption(TEST_ARRAY, SortDirection.ASCENDING);
     assertArrayEquals(EXPECTED_ASCENDING_SORTED_ARRAY, asc);
     String[] desc = SortingStringArrayByLength
-        .sortArrayByLengthThirdOption(TEST_ARRAY, SortDirection.DESCENDING);
+      .sortArrayByLengthThirdOption(TEST_ARRAY, SortDirection.DESCENDING);
     assertArrayEquals(EXPECTED_DESCENDING_SORTED_ARRAY, desc);
   }
 }

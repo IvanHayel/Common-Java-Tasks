@@ -7,8 +7,8 @@ import java.util.function.IntUnaryOperator;
 import org.junit.jupiter.api.Test;
 
 class FillingArrayTest {
-  private static final int[] TEST_ARRAY = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-  private static final int[] EXPECTED_ARRAY = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+  private static final int[] TEST_ARRAY = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  private static final int[] EXPECTED_ARRAY = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 
   /**
    * Method under test: {@link FillingArray#fillArrayFirstOption(int[], int)}

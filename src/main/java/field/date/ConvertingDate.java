@@ -59,8 +59,8 @@ public class ConvertingDate {
 
   public static Date convertLocalTimeToDate(LocalTime localTime) {
     return Date.from(
-        localTime.atDate(LocalDate.EPOCH)
-            .toInstant(DEFAULT_TIME_ZONE.getRules().getOffset(Instant.now()))
+      localTime.atDate(LocalDate.EPOCH)
+        .toInstant(DEFAULT_TIME_ZONE.getRules().getOffset(Instant.now()))
     );
   }
 

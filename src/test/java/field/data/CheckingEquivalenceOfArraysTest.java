@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 class CheckingEquivalenceOfArraysTest {
-  private static final int[] FIRST_ARRAY = { 3, 4, 5, 6, 1, 2 };
-  private static final int[] SECOND_ARRAY = { 3, 4, 5, 6, 1, 2 };
-  private static final int[] THIRD_ARRAY = { 3, 4, 5, 6, 1, 7 };
+  private static final int[] FIRST_ARRAY = {3, 4, 5, 6, 1, 2};
+  private static final int[] SECOND_ARRAY = {3, 4, 5, 6, 1, 2};
+  private static final int[] THIRD_ARRAY = {3, 4, 5, 6, 1, 7};
 
   /**
    * Method under test: {@link CheckingEquivalenceOfArrays#areEqualsFirstOption(int[], int[])}

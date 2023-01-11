@@ -13,7 +13,7 @@ class UnixTimestampConversionTest {
   @Test
   void testConvertFirstOption() {
     log.info("Date (first option): {}",
-        UnixTimestampConversion.convertFirstOption(UNIX_TEST_TIMESTAMP));
+      UnixTimestampConversion.convertFirstOption(UNIX_TEST_TIMESTAMP));
   }
 
   /**
@@ -22,7 +22,7 @@ class UnixTimestampConversionTest {
   @Test
   void testConvertSecondOption() {
     log.info("Date (second option): {}",
-        UnixTimestampConversion.convertSecondOption(UNIX_TEST_TIMESTAMP));
+      UnixTimestampConversion.convertSecondOption(UNIX_TEST_TIMESTAMP));
   }
 
   /**
@@ -31,7 +31,7 @@ class UnixTimestampConversionTest {
   @Test
   void testConvertThirdOption() {
     log.info("Date (third option): {}",
-        UnixTimestampConversion.convertThirdOption(UNIX_TEST_TIMESTAMP));
+      UnixTimestampConversion.convertThirdOption(UNIX_TEST_TIMESTAMP));
   }
 
   /**
@@ -40,7 +40,7 @@ class UnixTimestampConversionTest {
   @Test
   void testConvertLocalDateTime() {
     log.info("LocalDateTime: {}",
-        UnixTimestampConversion.convertLocalDateTime(UNIX_TEST_TIMESTAMP));
+      UnixTimestampConversion.convertLocalDateTime(UNIX_TEST_TIMESTAMP));
   }
 
   /**
@@ -49,6 +49,6 @@ class UnixTimestampConversionTest {
   @Test
   void testConvertZonedDateTime() {
     log.info("ZonedDateTime: {}",
-        UnixTimestampConversion.convertZonedDateTime(UNIX_TEST_TIMESTAMP));
+      UnixTimestampConversion.convertZonedDateTime(UNIX_TEST_TIMESTAMP));
   }
 }

@@ -25,8 +25,8 @@ public class RepeatConcatenation {
 
   public static String repeatFourthOption(String string, int times) {
     return Stream.generate(() -> string)
-        .limit(times)
-        .collect(Collectors.joining());
+      .limit(times)
+      .collect(Collectors.joining());
   }
 
   public static String repeatFifthOption(String string, int times) {
@@ -47,10 +47,10 @@ public class RepeatConcatenation {
 
   public static boolean hasOnlySubstrings(String string) {
     StringBuilder builder = new StringBuilder();
-    for(int i = 0; i < string.length() / 2; i++) {
+    for (int i = 0; i < string.length() / 2; i++) {
       builder.append(string.charAt(i));
       String result = string.replaceAll(builder.toString(), "");
-      if(result.length() == 0) {
+      if (result.length() == 0) {
         return true;
       }
     }

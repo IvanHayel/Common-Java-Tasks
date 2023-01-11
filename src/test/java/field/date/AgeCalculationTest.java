@@ -25,7 +25,7 @@ class AgeCalculationTest {
   void testCalculateAgeExact() {
     Period age = AgeCalculation.calculateAgeExact(BIRTH_DATE);
     String output = String.format("Exact age: %d years, %d months, %d days",
-        age.getYears(), age.getMonths(), age.getDays());
+      age.getYears(), age.getMonths(), age.getDays());
     log.info(output);
   }
 }

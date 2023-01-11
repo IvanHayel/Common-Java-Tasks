@@ -23,8 +23,8 @@ public class InvertingLettersAndWords {
 
   public static String invertSecondOption(String text) {
     return PATTERN.splitAsStream(text)
-        .map(word -> new StringBuilder(word).reverse())
-        .collect(Collectors.joining(WHITESPACE));
+      .map(word -> new StringBuilder(word).reverse())
+      .collect(Collectors.joining(WHITESPACE));
   }
 
   public static String invertThirdOption(String text) {

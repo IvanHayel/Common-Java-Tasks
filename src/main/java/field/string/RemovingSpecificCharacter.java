@@ -15,8 +15,8 @@ public class RemovingSpecificCharacter {
   public static String removeCharacterThirdOption(String str, char c) {
     StringBuilder builder = new StringBuilder();
     char[] array = str.toCharArray();
-    for(char ch : array) {
-      if(ch != c) {
+    for (char ch : array) {
+      if (ch != c) {
         builder.append(ch);
       }
     }
@@ -25,17 +25,17 @@ public class RemovingSpecificCharacter {
 
   public static String removeCharacterFourthOption(String str, char c) {
     return str.chars()
-        .filter(ch -> ch != c)
-        .mapToObj(ch -> String.valueOf((char) ch))
-        .reduce("", (a, b) -> a + b);
+      .filter(ch -> ch != c)
+      .mapToObj(ch -> String.valueOf((char) ch))
+      .reduce("", (a, b) -> a + b);
   }
 
   public static String removeCharacterFifthOption(String str, String c) {
     int codePoint = c.codePointAt(0);
     return str.codePoints()
-        .filter(ch -> ch != codePoint)
-        .mapToObj(ch -> String.valueOf((char) ch))
-        .reduce("", (a, b) -> a + b);
+      .filter(ch -> ch != codePoint)
+      .mapToObj(ch -> String.valueOf((char) ch))
+      .reduce("", (a, b) -> a + b);
   }
 
   public static String removeCharacterApache(String str, char c) {

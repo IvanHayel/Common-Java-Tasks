@@ -7,8 +7,8 @@ public class RemovingDuplicateCharacters {
   public static String removeDuplicatesFirstOption(String str) {
     char[] array = str.toCharArray();
     StringBuilder builder = new StringBuilder();
-    for(char c : array) {
-      if(builder.indexOf(String.valueOf(c)) == -1) {
+    for (char c : array) {
+      if (builder.indexOf(String.valueOf(c)) == -1) {
         builder.append(c);
       }
     }
@@ -19,8 +19,8 @@ public class RemovingDuplicateCharacters {
     char[] array = str.toCharArray();
     StringBuilder builder = new StringBuilder();
     Set<Character> set = new java.util.HashSet<>();
-    for(char c : array) {
-      if(set.add(c)) {
+    for (char c : array) {
+      if (set.add(c)) {
         builder.append(c);
       }
     }
@@ -29,7 +29,7 @@ public class RemovingDuplicateCharacters {
 
   public static String removeDuplicatesThirdOption(String str) {
     return Arrays.stream(str.split(""))
-        .distinct()
-        .reduce("", (a, b) -> a + b);
+      .distinct()
+      .reduce("", (a, b) -> a + b);
   }
 }

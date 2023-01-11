@@ -9,7 +9,9 @@ public class BreadthFirstSearch {
   private final LinkedList<Integer>[] adjacents;
 
   public BreadthFirstSearch(int v) {
-    if(v < 0) throw new IllegalArgumentException();
+    if (v < 0) {
+      throw new IllegalArgumentException();
+    }
     this.v = v;
     adjacents = new LinkedList[v];
     for (int i = 0; i < v; i++) {

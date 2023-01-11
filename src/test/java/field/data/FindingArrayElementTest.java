@@ -19,7 +19,7 @@ class FindingArrayElementTest {
   void testContainsElementFirstOption() {
     assertTrue(FindingArrayElement.containsElementFirstOption(TEST_ARRAY, TEST_ELEMENT));
     assertFalse(
-        FindingArrayElement.containsElementFirstOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
+      FindingArrayElement.containsElementFirstOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
   }
 
   /**
@@ -29,7 +29,7 @@ class FindingArrayElementTest {
   void testContainsElementSecondOption() {
     assertTrue(FindingArrayElement.containsElementSecondOption(TEST_ARRAY, TEST_ELEMENT));
     assertFalse(
-        FindingArrayElement.containsElementSecondOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
+      FindingArrayElement.containsElementSecondOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
   }
 
   /**
@@ -39,7 +39,7 @@ class FindingArrayElementTest {
   void testContainsElementThirdOption() {
     assertTrue(FindingArrayElement.containsElementThirdOption(TEST_ARRAY, TEST_ELEMENT));
     assertFalse(
-        FindingArrayElement.containsElementThirdOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
+      FindingArrayElement.containsElementThirdOption(TEST_ARRAY_WITH_NO_ELEMENT, TEST_ELEMENT));
   }
 
   /**
@@ -48,9 +48,9 @@ class FindingArrayElementTest {
   @Test
   void testFindIndexOfElementFirstOption() {
     assertEquals(TEST_ELEMENT_INDEX, FindingArrayElement.findIndexOfElementFirstOption(TEST_ARRAY,
-        TEST_ELEMENT));
+      TEST_ELEMENT));
     assertEquals(-1, FindingArrayElement.findIndexOfElementFirstOption(TEST_ARRAY_WITH_NO_ELEMENT,
-        TEST_ELEMENT));
+      TEST_ELEMENT));
   }
 
   /**
@@ -59,9 +59,9 @@ class FindingArrayElementTest {
   @Test
   void testFindIndexOfElementSecondOption() {
     assertEquals(TEST_ELEMENT_INDEX, FindingArrayElement.findIndexOfElementSecondOption(TEST_ARRAY,
-        TEST_ELEMENT));
+      TEST_ELEMENT));
     assertEquals(-1, FindingArrayElement.findIndexOfElementSecondOption(TEST_ARRAY_WITH_NO_ELEMENT,
-        TEST_ELEMENT));
+      TEST_ELEMENT));
   }
 }
 

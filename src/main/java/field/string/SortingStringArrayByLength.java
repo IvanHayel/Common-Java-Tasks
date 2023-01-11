@@ -25,14 +25,14 @@ public class SortingStringArrayByLength {
   }
 
   public static String[] sortArrayByLengthThirdOption(String[] array, SortDirection direction) {
-    if(direction == SortDirection.ASCENDING) {
+    if (direction == SortDirection.ASCENDING) {
       return Arrays.stream(array)
-          .sorted(Comparator.comparingInt(String::length))
-          .toArray(String[]::new);
+        .sorted(Comparator.comparingInt(String::length))
+        .toArray(String[]::new);
     } else {
       return Arrays.stream(array)
-          .sorted(Comparator.comparingInt(String::length).reversed())
-          .toArray(String[]::new);
+        .sorted(Comparator.comparingInt(String::length).reversed())
+        .toArray(String[]::new);
     }
   }
 }

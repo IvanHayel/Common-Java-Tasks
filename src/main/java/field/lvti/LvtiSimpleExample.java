@@ -12,7 +12,7 @@ public class LvtiSimpleExample {
     Thread[] threads = new Thread[10];
     Map<List<String>, Map<String, String>> map = new HashMap<>();
     EnumConstantNotPresentException exception = new EnumConstantNotPresentException(Enum.class,
-        "FOO");
+      "FOO");
     int integer = new Random().nextInt();
 
     var lvtiString = "Hello World";

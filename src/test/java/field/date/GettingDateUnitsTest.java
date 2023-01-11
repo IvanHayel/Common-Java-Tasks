@@ -14,7 +14,7 @@ class GettingDateUnitsTest {
   private static final int SECOND = 7;
   private static final int NANO = 8;
   private static final LocalDateTime TEST_DATE =
-      LocalDateTime.of(YEAR, MONTH, DAY, HOUR, MINUTE, SECOND, NANO);
+    LocalDateTime.of(YEAR, MONTH, DAY, HOUR, MINUTE, SECOND, NANO);
 
   /**
    * Method under test: {@link GettingDateUnits#getYearFirstOption(LocalDateTime)}

@@ -25,21 +25,21 @@ public class CountingVowelsAndConsonants {
   public static Pair<Long, Long> countVowelsAndConsonantsSecondOption(String text) {
     text = text.toLowerCase();
     long vowels = text.chars()
-        .filter(character -> ALL_VOWELS.contains((char) character))
-        .count();
+      .filter(character -> ALL_VOWELS.contains((char) character))
+      .count();
     long consonants = text.chars()
-        .filter(character -> !ALL_VOWELS.contains((char) character))
-        .filter(character -> character >= 'a' && character <= 'z')
-        .count();
+      .filter(character -> !ALL_VOWELS.contains((char) character))
+      .filter(character -> character >= 'a' && character <= 'z')
+      .count();
     return Pair.of(vowels, consonants);
   }
 
   public static Pair<Long, Long> countVowelsAndConsonantsThirdOption(String text) {
     text = text.toLowerCase();
     Map<Boolean, Long> result = text.chars()
-        .mapToObj(character -> (char) character)
-        .filter(character -> (character >= 'a' && character <= 'z'))
-        .collect(Collectors.partitioningBy(ALL_VOWELS::contains, Collectors.counting()));
+      .mapToObj(character -> (char) character)
+      .filter(character -> (character >= 'a' && character <= 'z'))
+      .collect(Collectors.partitioningBy(ALL_VOWELS::contains, Collectors.counting()));
     return Pair.of(result.get(true), result.get(false));
   }
 }

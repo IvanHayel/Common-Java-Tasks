@@ -16,20 +16,21 @@ public class SortingMap {
 
   public static <K, V> Map<K, V> sortByKeyStream(Map<K, V> map, Comparator<? super K> comparator) {
     return map.entrySet()
-        .stream()
-        .sorted(Map.Entry.comparingByKey(comparator))
-        .collect(Collectors.toMap(
-            Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new
-        ));
+      .stream()
+      .sorted(Map.Entry.comparingByKey(comparator))
+      .collect(Collectors.toMap(
+        Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new
+      ));
   }
 
-  public static <K, V> Map<K, V> sortByValueStream(Map<K, V> map, Comparator<? super V> comparator) {
+  public static <K, V> Map<K, V> sortByValueStream(Map<K, V> map,
+    Comparator<? super V> comparator) {
     return map.entrySet()
-        .stream()
-        .sorted(Map.Entry.comparingByValue(comparator))
-        .collect(Collectors.toMap(
-            Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new
-        ));
+      .stream()
+      .sorted(Map.Entry.comparingByValue(comparator))
+      .collect(Collectors.toMap(
+        Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new
+      ));
   }
 
   public static <K extends Comparable, V> List<K> sortByKeyList(Map<K, V> map) {
