@@ -125,3 +125,7 @@
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------:|
 | Creating file paths.   |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/CreatingFilePaths.java)  |
 | Converting file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConvertingFilePaths.java) |
+| Connecting file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConnectingFilePaths.java) |
+| Relativize file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/RelativizeFilePaths.java) |
+| Walking file tree.     |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WalkFileTree.java)     |
+| Watching file paths.   |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WatchingFilePaths.java)  |
