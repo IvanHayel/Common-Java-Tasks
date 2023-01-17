@@ -18,6 +18,8 @@
 
 ### - [IO](https://github.com/IvanHayel/common-java-tasks#io)
 
+### - [Reflection API](https://github.com/IvanHayel/common-java-tasks#reflection-api)
+
 ### ... `IN PROGRESS` ...
 
 ---
@@ -121,11 +123,24 @@
 
 ### IO
 
-| **Task**               |                                                      **Solution**                                                       |
-|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------:|
-| Creating file paths.   |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/CreatingFilePaths.java)  |
-| Converting file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConvertingFilePaths.java) |
-| Connecting file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConnectingFilePaths.java) |
-| Relativize file paths. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/RelativizeFilePaths.java) |
-| Walking file tree.     |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WalkFileTree.java)     |
-| Watching file paths.   |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WatchingFilePaths.java)  |
+| **Task**                      |                                                      **Solution**                                                       |
+|:------------------------------|:-----------------------------------------------------------------------------------------------------------------------:|
+| Creating file paths.          |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/CreatingFilePaths.java)  |
+| Converting file paths.        | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConvertingFilePaths.java) |
+| Connecting file paths.        | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/ConnectingFilePaths.java) |
+| Relativize file paths.        | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/RelativizeFilePaths.java) |
+| Walking file tree.            |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WalkFileTree.java)     |
+| Watching file paths.          |  [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/WatchingFilePaths.java)  |
+| Streaming file.               |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/StreamingFile.java)    |
+| Search for files/directories. |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/io/SearchingFiles.java)    |
+
+---
+
+### Reflection API
+
+| **Task**                 |                                                           **Solution**                                                            |
+|:-------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|
+| Package inspection.      |   [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/reflection/PackageInspection.java)   |
+| Class inspection.        |    [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/reflection/ClassInspection.java)    |
+| Class instance creation. | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/reflection/ClassInstanceCreation.java) |
+| Annotation inspection.   | [**click**](https://github.com/IvanHayel/common-java-tasks/blob/master/src/main/java/field/reflection/AnnotationInspection.java)  |
